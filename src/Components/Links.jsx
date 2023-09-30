@@ -5,22 +5,22 @@ const Links = () => {
 
   return (
     <Navbar
-      bg="pink"
-      variant="pink"
+      bg="danger"
+      variant="danger"
     >
       <Container className="justify-content-start">
-        <Navbar.Brand>Happy <strong>Cacke</strong></Navbar.Brand>
+        <Navbar.Brand>Happy Cacke 🍰</Navbar.Brand> 
         <Link
           to="/"
-          className="text-red ms-3 text-decoration-none"
+          className="text-white ms-3 text-decoration-none"
         >
-          Home
+          🏠 Home
         </Link>
         <Link
           to="/contacto"
-          className="text-red ms-3 text-decoration-none"
+          className="text-white ms-3 text-decoration-none"
         >
-          Contacto
+          📒 Contacto
         </Link>
       </Container>
     </Navbar>

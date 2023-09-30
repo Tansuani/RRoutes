@@ -16,7 +16,7 @@ const ContactPage = () => {
                 <label for="exampleFormControlTextarea1" class="form-label">Descripción:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-danger">Enviar</button>
         </Form>
     </Container>
   );
