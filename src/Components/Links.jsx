@@ -2,6 +2,7 @@ import { Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Links = () => {
+
   return (
     <Navbar
       bg="pink"
@@ -26,4 +27,4 @@ const Links = () => {
   );
 };
 
-export default Links
+export default Links;

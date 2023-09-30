@@ -1,6 +1,7 @@
 import { Container, Form } from "react-bootstrap";
 
 const ContactPage = () => {
+    
   return (
     <Container className="text-center">
         <h1 className="pt-5">
@@ -21,4 +22,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage
+export default ContactPage;

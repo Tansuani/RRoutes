@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 
 const HomePage = () => {
+    
   return (
     <Container className="text-center">
       <h1 className="pt-5">
@@ -11,4 +12,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage
+export default HomePage;
